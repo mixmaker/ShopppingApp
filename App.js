@@ -5,8 +5,8 @@ import AppStack from './src/navigation/AppStack';
 const App = () => {
   return (
     // <SafeAreaView style={{flex:1, backgroundColor:'red'}}>
-    <View style={{ flex: 1, }}>
-      <StatusBar backgroundColor='transparent' />
+    <View style={{ flex: 1 }}>
+      <StatusBar backgroundColor="transparent" />
       <AppStack />
     </View>
     // </SafeAreaView>
